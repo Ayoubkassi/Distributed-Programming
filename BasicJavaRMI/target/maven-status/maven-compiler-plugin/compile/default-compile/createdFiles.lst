@@ -1,0 +1,4 @@
+com/mycompany/javarmi/MyRemoteObject.class
+com/mycompany/javarmi/JavaRMIClient.class
+com/mycompany/javarmi/MyRemoteInterface.class
+com/mycompany/javarmi/JavaRMIServer.class
