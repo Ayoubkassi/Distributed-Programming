@@ -11,22 +11,13 @@ import java.rmi.server.UnicastRemoteObject;
  *
  * @author kassi
  */
-public class MyRemoteObject extends UnicastRemoteObject implements MyRemoteInterface {
+public class DialogueImpl extends UnicastRemoteObject implements DialogueInterface {
 
-    public MyRemoteObject() throws RemoteException {
+    public DialogueImpl() throws RemoteException {
     }
     
    
 
-    @Override
-    public void connect(String pseudo) throws RemoteException {
-        System.out.println("Welcome "+pseudo+" u are connected!");
-    }
-
-    @Override
-    public void disconnect(String pseudo) throws RemoteException {
-        System.out.println("Bye "+pseudo+" u are disconnected!");
-    }
 
     @Override
     public String[] getClients() throws RemoteException {

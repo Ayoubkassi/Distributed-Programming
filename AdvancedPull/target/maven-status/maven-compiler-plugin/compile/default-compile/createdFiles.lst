@@ -1,0 +1,6 @@
+com/mycompany/basicpull/BasicPullServer.class
+com/mycompany/basicpull/DialogueImpl.class
+com/mycompany/basicpull/DialogueInterface.class
+com/mycompany/basicpull/BasicPullClient.class
+com/mycompany/basicpull/ConnectionInterface.class
+com/mycompany/basicpull/ConnectionImpl.class
