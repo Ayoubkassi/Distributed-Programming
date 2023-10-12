@@ -21,7 +21,7 @@ public class BasicPullServer {
     public static void main(String[] args) {
         // establisg the server connection using remoteObject 
         try{
-        MyRemoteInterface remoteObject = new MyRemoteObject();
+        ConnectionInterface remoteObject = new ConnectionImpl();
         Registry resgistry = LocateRegistry.createRegistry(PORT);
         Naming.rebind("chat",remoteObject);
         System.out.println("Server is running on port : "+ PORT);
