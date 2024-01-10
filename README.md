@@ -1,4 +1,4 @@
-Certainly! Here's an improved and more visually appealing Markdown file for your description:
+Here's an improved and more visually appealing Markdown file for your description:
 
 # 🚀 Distributed Programming with Java
 
